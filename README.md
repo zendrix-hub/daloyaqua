@@ -22,7 +22,7 @@ Association first, not app first: bookkeeping and pooled selling for Baleno farm
 | Path | What |
 |---|---|
 | `docs/00-brand.md` | Name, meaning, principles |
-| `docs/01-research/` | Cited research rounds 1–5 (problem discovery; value chain, users, Japan; who pays and funding; co-op bookkeeping landscape; ground-level copra weighing, labor, Baleno groups & CDA accounts) |
+| `docs/01-research/` | Cited research rounds 1–6 (problem discovery; value chain, users, Japan; who pays and funding; co-op bookkeeping landscape; copra weighing/labor/CDA accounts; SAAD budgets, ACPC conduits, NCFRS & Baleno infrastructure) |
 | `docs/02-strategy/` | Lean canvas, team roles, funding roadmap |
 | `docs/03-sdlc.md` | How we build: SDLC + spec-driven development, stage gates |
 | `docs/05-fieldwork/` | Interview guides (G1–G6) and interview notes |

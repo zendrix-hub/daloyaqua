@@ -18,7 +18,7 @@
 |---|---|
 | `README.md` | Overview, spec status table, repo map |
 | `docs/00-brand.md` | Name meaning (*daloy* = flow): water, data, cash and knowledge; principles |
-| `docs/01-research/round1–5.md` | Cited, vote-verified desk research, with the rejected claims listed (round 4 = co-op bookkeeping landscape; round 5 = ground-level copra *pesada*/moisture, *tersya* labor, named Baleno DA-SAAD groups & CDA `MC 2022-24` crosswalk) |
+| `docs/01-research/round1–6.md` | Cited, vote-verified desk research, with the rejected claims listed (round 5 = ground-level copra *pesada*/moisture & *taohan* turnover; round 6 = SAAD project budgets, ACPC conduits, NCFRS & Baleno telecom/cash rails) |
 | `docs/02-strategy/lean-canvas.md` | v2 business model, ✅ evidence vs 🧪 hypothesis |
 | `docs/02-strategy/funding-roadmap.md` | Who pays and which funding fits each stage, eligibility blockers, contact list |
 | `docs/02-strategy/team-roles.md` | Roles, operating rhythm, decision rules |
@@ -46,7 +46,7 @@
 ## Verified / refuted / open
 - **Verified:** see each round file. Confidence labels are in the files.
 - **🚫 Do not use (refuted):** "CFIDP funds computerized accounting for co-ops" (round 3) · "94% of farmers sell to traders while millers pay more" · "buyer credit lowers price" · "traders pay ₱7–8/kg less than oil mills" · "micro co-ops must encode reports online" · "JICA NINJA is a current program" · the SEAFDEC tilapia model figures · "CY2024 micro co-op Google Form filing" · "CDA hard copies no longer required" · "eKoopBanker doesn't do bookkeeping" · "CAFSIS system" · the PIDS rural internet and 3G coverage statistics (round 1).
-- **Open (desk research could not answer):** DOST SETUP/TAPI · LGU and DA-SAAD budgets in Masbate · Landbank/SURE · what farmers pay for digital services · Masbate copra buyers and mills · Masbate connectivity · pond costs.
+- **Open (desk research could not answer):** DOST SETUP/TAPI Masbate approvals · what farmers pay for private accounting services · trader-to-mill price margins · fishpond parcel salinity & water source (requires Brother's site check). *(Resolved in Round 6: DA-SAAD Baleno budgets, ACPC lending conduit RBGI/AMAD, NCFRS intake at Baleno MAO, and Baleno connectivity/pawnshop cash rails.)*
 
 ## Field-validation checklist (exit criteria for Phase 0)
 Use the matching guide in `docs/05-fieldwork/interview-guides.md`: F1→G1, F2→G2, F3→G3, F4→G4, F5→G5.
@@ -89,3 +89,4 @@ Use the matching guide in `docs/05-fieldwork/interview-guides.md`: F1→G1, F2�
 | 2026-11-05 | Claude + Cowboy | Gap analysis. Wrote interview guides G1–G6 (`docs/05-fieldwork/`). Round 4 (co-op bookkeeping landscape): plausible, unproven gap; flagged that the micro-co-op audit rule is unresolved (round 3 note corrected). Added F8–F9 and ideas I-009, I-010. |
 | 2026-11-06 | Antigravity + Cowboy | Cleaned and flattened repository root (`solving/daloyaqua/*` → `/`); removed legacy `backend/` (and tracked `venv`), `frontend/`, and duplicate `solving/` files; added root `.gitignore`. |
 | 2026-11-08 | Antigravity + Cowboy | Research Round 5 (`docs/01-research/round5.md`): verified PCA AO 02 s. 2003 moisture rules (6% *resecada* base, ≥14% rejection) and village *pesada* deduction flow (*bawas sako* + *resiko*); identified the 3 Baleno DA-SAAD associations by name (`Maluy-a Proper FA`, `Madancalan FA`, `Maan FFA`) and Masbate→Legazpi/Lucena/Cebu copra routes; mapped Spec 001 `Lists` to CDA `MC 2022-24` (`50000`/`60000` series) and verified `Pinoy Coop Core` and `CoopBase` target credit co-ops. Cowboy shared the ground-truth Baleno workflow: the *taohan* cooks, transports, and bargains the copra, then turns over the sale to **Mother** to review and allocate between the family and the *taohan*. Updated `tools/baleno-farm-logbook-v0.xlsx` (v0.1), `Spec 001`, `Spec 003`, `team-roles.md`, and `interview-guides.md` to match Mother's turnover workflow and pass all formula/regression checks. |
+| 2026-11-08 | Antigravity + Cowboy | Research Round 6 (`docs/01-research/round6.md`): verified exact DA-SAAD Baleno funding (₱413k Madancalan poultry, ₱532k Maluy-a Proper corn/cassava); identified ACPC lending conduits (RBGI / `acpcaccess.ph` / DA-RFO 5 AMAD); verified PCA NCFRS registration at Baleno MAO (including *taohan* eligibility & 143 seedlings/ha); mapped Baleno telecom (Smart/Globe 4G vs interior dead zones) and cash rails (Cebuana/Palawan in Poblacion). |
