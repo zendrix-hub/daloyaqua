@@ -21,21 +21,20 @@ Questions are in English with Filipino versions. **Brother: adapt them to Masbat
 
 ---
 
-## G1 — On-site logger commitment (F1)
-**Who:** Brother or a parent · **By:** Cowboy (call) · **Time:** 10 minutes · **Hypothesis:** someone will log every transaction the same day.
+## G1 — On-site logger commitment at Mother's turnover (F1)
+**Who:** Mother + Brother · **By:** Cowboy (call) · **Time:** 10 minutes · **Hypothesis:** every time the *taohan* turns over a copra sale to Mother, Mother or Brother will log that turnover row in `Sales` (and any standalone farm expenses in `Costs`) the same day.
 
-1. "Last month, how many times did we sell copra or rice? Who handled it?" *(Ilang beses tayo nagbenta noong nakaraang buwan? Sino ang humawak?)*
-2. "Where is that sale recorded now: notebook, receipt, memory?"
-3. "What usually stops you from writing things down?"
-4. Show the logbook (2 minutes). "Log the last sale you remember, right now, while I watch." → **Time it.**
-5. **Commitment:** "Can you log every sale and expense the same day for the next 30 days? I'll check every Sunday."
+1. "Last time the *taohan* sold copra and turned the money over to Mama, how did Mama calculate the split between our share and the *taohan*'s share?"
+2. "Did the *taohan* bring a written receipt (*pesada*) from the buyer? Where is it kept now?"
+3. "Show the `Sales` sheet (2 minutes): look at how entering `Qty (kg)`, `Price`, `Transport`, and `Taohan Share (₱)` automatically calculates `Net (₱)` and `Our Family Share (₱)`. Let's type the last sale Mama remembers right now." → **Time it.**
+4. **Commitment:** "Every time the *taohan* turns over a sale to Mama, can Mama or Brother log that one row on `Sales` (plus any standalone expenses on `Costs`) for the next 30 days? I'll check every Sunday."
 
-**Signal:** ✅ logs a sale in ≤2 minutes and says yes to 30 days. ❌ Hesitates → try voice notes on Messenger instead (I-005).
+**Signal:** ✅ logs a turnover row in ≤2 minutes and says yes to 30 days. ❌ Hesitates → let Mama/Brother send a photo of the *pesada* and voice note on Messenger right after the turnover, and Cowboy logs it (I-005).
 
 ---
 
-## G2 — Copra buyer (F2, I-001, I-003)
-**Who:** The buyer you normally sell to, plus 1–2 others in Baleno · **By:** Brother · **Time:** 10–15 minutes at a sale · **Hypothesis:** moisture is judged by eye, and deductions are 14–22%.
+## G2 — Copra buyer & *Taohan* sale check (F2, I-001, I-003)
+**Who:** First, ask our *taohan* who cooks, transports, and bargains the copra; then Brother accompanies the *taohan* (or visits the buyer) on the next 1–3 sales in Baleno · **By:** Brother (and Mother at turnover) · **Time:** 10–15 minutes at a sale or turnover · **Hypothesis:** moisture is judged by eye, and deductions (*bawas sako* + *resiko*) are 14–22%.
 
 Ask casually during or after a real sale. This is a conversation, not an audit.
 1. "How do you check the moisture, by look and feel or with a meter?" *(Paano n'yo po sinusukat ang moisture: tingin/hawak o may metro?)*
@@ -52,7 +51,7 @@ Ask casually during or after a real sale. This is a conversation, not an audit.
 ---
 
 ## G3 — Association officer (F3, I-004) ⭐ top priority
-**Who:** Chair, treasurer or bookkeeper of a Baleno farmer association or co-op (e.g. the DA-SAAD groups in Madangcalan, Obongon Diot or Polot, or a coconut co-op) · **By:** Sister (accounting knowledge helps) · **Time:** 25–30 minutes · **Hypothesis:** they struggle to produce their annual report and financial statements, and would pay for help or try it.
+**Who:** Chair, treasurer or bookkeeper of a Baleno farmer association or co-op — e.g. the 3 verified DA-SAAD Phase 2 groups in Baleno (**Maluy-a Proper Farmers Association** in Brgy. Obongan Diot [corn/cassava, already doing profit-sharing & MAED bookkeeping training], **Madancalan Farmers Association** in Brgy. Madangcalan [poultry], or **Maan Farmers and Fisherfolks Association** in Brgy. Polot [vegetables]; see `docs/01-research/round5.md` C6–C7), or a coconut co-op · **By:** Sister (accounting knowledge helps) · **Time:** 25–30 minutes · **Hypothesis:** they struggle to produce their annual report and financial statements, and would pay for help or try it.
 
 **Warm-up**
 1. "Tell me about your association: how many members, what do you produce, how long have you been organized?"

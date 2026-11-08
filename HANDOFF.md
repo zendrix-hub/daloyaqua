@@ -5,11 +5,11 @@
 ## Snapshot
 | | |
 |---|---|
-| **Last updated** | 2026-11-06 |
+| **Last updated** | 2026-11-08 |
 | **Phase (SDLC)** | **0 — Research / Discover** |
-| **Product stage** | S0 Family Farm Logbook, *built, not yet deployed* |
+| **Product stage** | S0 Family Farm Logbook (`v0.1`, *built with Mother's taohan turnover split & Spec 003 quality fields, not yet deployed*) |
 | **Founder** | "Cowboy" (IT). Final semester in Cebu, graduating Jan 2027; interning at a Japanese company, then plans to work in Japan |
-| **Team** | Brother: registered agriculturist (agronomy, field). Sister: management accounting student (finance). See `docs/02-strategy/team-roles.md` |
+| **Team** | Mother: reviews *taohan* copra sales & allocates family vs worker shares. Brother: registered agriculturist (agronomy, field). Sister: management accounting student (finance). See `docs/02-strategy/team-roles.md` |
 | **Place** | Baleno, Masbate, Philippines (Bicol, Region V). Family land: coconut/copra, rice/corn, idle parcels; a fishpond is planned |
 | **Repo** | github.com/zendrix-hub/daloyaqua (root flattened & cleaned; push from personal machine only, never from the NEC work laptop) |
 
@@ -18,17 +18,17 @@
 |---|---|
 | `README.md` | Overview, spec status table, repo map |
 | `docs/00-brand.md` | Name meaning (*daloy* = flow): water, data, cash and knowledge; principles |
-| `docs/01-research/round1–4.md` | Cited, vote-verified desk research, with the rejected claims listed (round 4 = co-op bookkeeping landscape) |
+| `docs/01-research/round1–5.md` | Cited, vote-verified desk research, with the rejected claims listed (round 4 = co-op bookkeeping landscape; round 5 = ground-level copra *pesada*/moisture, *tersya* labor, named Baleno DA-SAAD groups & CDA `MC 2022-24` crosswalk) |
 | `docs/02-strategy/lean-canvas.md` | v2 business model, ✅ evidence vs 🧪 hypothesis |
 | `docs/02-strategy/funding-roadmap.md` | Who pays and which funding fits each stage, eligibility blockers, contact list |
 | `docs/02-strategy/team-roles.md` | Roles, operating rhythm, decision rules |
 | `docs/03-sdlc.md` | SDLC (Phase 0–7) + spec-driven development, stage gates S0–S3 |
 | `docs/04-innovation.md` | Innovation log: idea → experiment → spec or parked |
 | `docs/05-fieldwork/interview-guides.md` | Interview guides G1–G6 (Mom Test style) mapped to F1–F6; notes go in `docs/05-fieldwork/notes/` |
-| `specs/001-farm-logbook/` | spec, plan, tasks: the v0 logbook |
+| `specs/001-farm-logbook/` | spec, plan, tasks: the v0.1 logbook (Mother's *taohan* turnover calculator) |
 | `specs/002-mobile-entry/spec.md` | Draft: offline-first, assisted entry (waits for the S0 gate) |
-| `specs/003-copra-sale-quality/spec.md` | Draft: copra moisture and deduction fields |
-| `tools/baleno-farm-logbook-v0.xlsx` | The logbook workbook |
+| `specs/003-copra-sale-quality/spec.md` | Built into v0.1 (awaiting brother/sister review): copra moisture and deduction fields |
+| `tools/baleno-farm-logbook-v0.xlsx` | The v0.1 logbook workbook (2,194 formula cells tested, 0 errors) |
 | `personal/vgmo-v2.md` | Cowboy's VGMO (personal; Cowboy decides whether to publish it) |
 
 **Source of truth:** this repository root (`daloyaqua/`). The legacy `backend/` and `frontend/` prototype folders and duplicate `solving/` files have been removed.
@@ -64,12 +64,12 @@ Use the matching guide in `docs/05-fieldwork/interview-guides.md`: F1→G1, F2�
 | F7 | Siblings' ages and RSBSA status qualify for YFC/KAYA | Ask | Cowboy | ☐ |
 
 ## Next actions (in order)
-1. **Cowboy:** upload `tools/baleno-farm-logbook-v0.xlsx` to Google Sheets; confirm spec 001 AC5 (formulas calculate in Google Sheets). *(Repo upload & cleanup done 2026-11-06.)*
-2. **Cowboy → brother:** ask F1 ("Will you log every sale and expense the same day?").
-3. **Cowboy + brother:** 30-minute call to fill in Parcels from Google Maps; delete the example rows; enter 1 real past copra sale → spec 001 is **deployed**.
-4. **Brother + sister:** review the spec 003 draft.
-5. **Brother:** F2 on the next copra sale; F4 visit to LGU Baleno MAO.
-6. **Sister:** F3 association interview.
+1. **Cowboy:** upload `tools/baleno-farm-logbook-v0.xlsx` (now v0.1) to Google Sheets; confirm spec 001 AC5 (formulas calculate in Google Sheets). *(Repo upload & cleanup done 2026-11-06; v0.1 updated 2026-11-08.)*
+2. **Cowboy → Mother & brother:** run G1 (10-min call): show how `Sales` calculates Mother's exact turnover allocation (`Net after transport` → `Taohan Share (₱)` → `Our Family Share (₱)`) when the *taohan* turns over a sale (`F1`).
+3. **Cowboy + Mother + brother:** 30-minute call to fill in Parcels from Google Maps; delete the example rows; enter 1 real past copra sale turnover from Mother's records → spec 001 is **deployed**.
+4. **Brother + sister:** review Spec 003 columns (`M:O` in `Sales`) and the `MC 2022-24` chart-of-accounts crosswalk in `docs/01-research/round5.md`.
+5. **Brother (+ *taohan*):** F2 on the next copra sale (`G2`); F4 visit to LGU Baleno MAO.
+6. **Sister:** F3 association interview (starting with **Maluy-a Proper Farmers Association** in Obongan Diot, **Madancalan FA**, or **Maan FFA**).
 
 ## Rules for AI agents
 1. **Phase discipline:** we are in Research. Don't propose building new software until the Phase 0 exit criteria in `docs/03-sdlc.md` are met. Ideas go to `docs/04-innovation.md`.
@@ -88,3 +88,4 @@ Use the matching guide in `docs/05-fieldwork/interview-guides.md`: F1→G1, F2�
 | 2026-11-05 | Claude + Cowboy | Push blocked by the NEC proxy; manual upload chosen. Created the repo skeleton (brand, SDLC+SDD, specs 001–003, lean canvas). Rounds 2 (value chain, users, Japan, pond) and 3 (who pays, funding); round 3 refuted a round 2 CFIDP claim, and it was corrected. Validation pass: phase set to Research, spec 001 → built, not deployed. Added the innovation log, HANDOFF.md, CLAUDE.md/AGENTS.md. VGMO v2.1 adds Innovation. |
 | 2026-11-05 | Claude + Cowboy | Gap analysis. Wrote interview guides G1–G6 (`docs/05-fieldwork/`). Round 4 (co-op bookkeeping landscape): plausible, unproven gap; flagged that the micro-co-op audit rule is unresolved (round 3 note corrected). Added F8–F9 and ideas I-009, I-010. |
 | 2026-11-06 | Antigravity + Cowboy | Cleaned and flattened repository root (`solving/daloyaqua/*` → `/`); removed legacy `backend/` (and tracked `venv`), `frontend/`, and duplicate `solving/` files; added root `.gitignore`. |
+| 2026-11-08 | Antigravity + Cowboy | Research Round 5 (`docs/01-research/round5.md`): verified PCA AO 02 s. 2003 moisture rules (6% *resecada* base, ≥14% rejection) and village *pesada* deduction flow (*bawas sako* + *resiko*); identified the 3 Baleno DA-SAAD associations by name (`Maluy-a Proper FA`, `Madancalan FA`, `Maan FFA`) and Masbate→Legazpi/Lucena/Cebu copra routes; mapped Spec 001 `Lists` to CDA `MC 2022-24` (`50000`/`60000` series) and verified `Pinoy Coop Core` and `CoopBase` target credit co-ops. Cowboy shared the ground-truth Baleno workflow: the *taohan* cooks, transports, and bargains the copra, then turns over the sale to **Mother** to review and allocate between the family and the *taohan*. Updated `tools/baleno-farm-logbook-v0.xlsx` (v0.1), `Spec 001`, `Spec 003`, `team-roles.md`, and `interview-guides.md` to match Mother's turnover workflow and pass all formula/regression checks. |

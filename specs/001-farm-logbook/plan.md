@@ -7,10 +7,10 @@ A single spreadsheet workbook: `tools/baleno-farm-logbook-v0.xlsx`. Shared throu
 | Sheet | Grain (one row =) | Key fields |
 |---|---|---|
 | Parcels | one parcel | Parcel ID (PK), name/location, area (ha), current use, main crop |
-| Lists | lookup values | crops, cost categories (chart of accounts), buyers |
-| Sales | one sale | date, Parcel ID (FK), crop, kg, ₱/kg, *gross*, buyer, transport, *net*, *net ₱/kg* |
-| Costs | one expense | date, Parcel ID (FK), crop, category, item, qty, unit, amount, paid to |
-| Summary | computed | profit per parcel (SUMIFS), copra price tracker (COUNTIFS/SUMIFS/MINIFS/MAXIFS) |
+| Lists | lookup values | crops, cost categories (chart of accounts aligned with CDA `MC 2022-24`), buyers, moisture methods (`Visual`, `Meter`, `Unknown`) |
+| Sales | one sale turnover (*taohan* → Mother) | date, Parcel ID (FK), crop, net kg paid, ₱/kg, *gross*, buyer, transport, *net*, *net ₱/kg*, taohan share (₱), *our family share (₱)*, moisture method, deduction %, gross weight before deduction (kg), notes |
+| Costs | one standalone expense (outside sale turnover) | date, Parcel ID (FK), crop, category, item, qty, unit, amount, paid to, notes |
+| Summary | computed | profit per parcel (`Sales Net − [Taohan Share + Costs]`, SUMIFS), copra price & turnover tracker (COUNTIFS/SUMIFS/MINIFS/MAXIFS, Visual vs Meter avg net ₱/kg) |
 
 *Italic* = formula columns. Yellow cells with blue text are for input. Black text is formulas.
 

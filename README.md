@@ -11,9 +11,9 @@ The family farm logbook is our first **research instrument**: it collects real B
 
 | Spec | Name | Status |
 |---|---|---|
-| [001](specs/001-farm-logbook/spec.md) | Family farm logbook (spreadsheet) | built, awaiting deployment |
+| [001](specs/001-farm-logbook/spec.md) | Family farm logbook (spreadsheet v0.1, Mother's turnover edition) | built, awaiting deployment |
 | [002](specs/002-mobile-entry/spec.md) | Mobile entry (offline-first, assisted) | draft (waits for S0 gate) |
-| [003](specs/003-copra-sale-quality/spec.md) | Copra moisture & deduction fields | draft (awaiting review) |
+| [003](specs/003-copra-sale-quality/spec.md) | Copra moisture & deduction fields | built into v0.1, awaiting review |
 
 ## Strategy in one line
 Association first, not app first: bookkeeping and pooled selling for Baleno farmer groups, built after it's proven on our own farm. See [lean canvas](docs/02-strategy/lean-canvas.md).
@@ -22,7 +22,7 @@ Association first, not app first: bookkeeping and pooled selling for Baleno farm
 | Path | What |
 |---|---|
 | `docs/00-brand.md` | Name, meaning, principles |
-| `docs/01-research/` | Cited research rounds 1–4 (problem discovery; value chain, users, Japan; who pays and funding; co-op bookkeeping landscape) |
+| `docs/01-research/` | Cited research rounds 1–5 (problem discovery; value chain, users, Japan; who pays and funding; co-op bookkeeping landscape; ground-level copra weighing, labor, Baleno groups & CDA accounts) |
 | `docs/02-strategy/` | Lean canvas, team roles, funding roadmap |
 | `docs/03-sdlc.md` | How we build: SDLC + spec-driven development, stage gates |
 | `docs/05-fieldwork/` | Interview guides (G1–G6) and interview notes |
