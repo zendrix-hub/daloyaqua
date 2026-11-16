@@ -1,5 +1,7 @@
 # Team & Roles
 
+> **Written for the first plan (archived 2026-11-16).** Not in force. The current plan is [`HANDOFF.md`](../../HANDOFF.md); this file will be rewritten after the farm fact sheet.
+
 Three siblings, three disciplines. Together they cover the AI + agriculture + accounting goal in Cowboy's VGMO.
 
 | Person | Discipline | Role now (S0–S1) | Future role (S2+) |

@@ -16,7 +16,7 @@ Hypothesis tested: *small rural farmer co-ops struggle to produce the CDA annual
    - https://cda.gov.ph/region-3/reminder-letter-on-the-submission-of-mandatory-reports-for-fy-2025/
 4. **CDA provides standards, not software or labor. *(high)*** Revised Standard Chart of Accounts (MC 2022-24) and Amended Financial Reporting Framework for co-ops (MC 2022-25), Sept 2022, plus seminars. These cover agricultural and multipurpose co-ops.
    - https://cda.gov.ph/region-ncr/mandaluyong-city-seminar-on-the-amended-philippines-financial-reporting-framework-for-cooperatives-and-the-revised-standard-chart-of-accounts/
-   - → **DaloyAqua's chart of accounts should follow MC 2022-24** (task for the sister).
+   - → **DaloyAqua's chart of accounts should follow MC 2022-24**.
 5. **Filing is online-only through CAIS** (cs.cda.gov.ph/cais, replaced CAPRIS from CY2023), **and original hard copies are still required.** A rural co-op needs internet access *and* a way to deliver paper. *(high, 2-1)*
 6. **CDA admits that online filing hurt compliance** in "digitally deprived localities" (FY2022 report; the reporting count dropped, partly because of COVID). *(medium; old, self-reported)*
    - https://cda.gov.ph/wp-content/uploads/2022/01/BAR-1-PhysicalofOperation-FY-2023-CDA.pdf
@@ -46,9 +46,10 @@ Round 3 (A1) said micro co-ops "may be audited by their own Audit Committee." Th
 - **The value proposition gets sharper:** "Offline record-keeping during the year → CDA-standard (MC 2022-24) books → audit-ready FS + CAIS-ready CAPR → we help with filing." That's year-round help, compared with CDA's one-off caravans.
 - **A partnership angle:** external auditors are the bottleneck and a partner (they audit what we prepare). CDA Region V caravans are a channel.
 - **The Amnesty Program** for non-compliant or dormant co-ops could be a first wedge 🧪.
-- **Risk:** if Baleno groups are DOLE/SEC/LGU-registered, not CDA, the COC pain doesn't apply. G3 question 2 checks this.
+- **Risk:** if Baleno groups are DOLE/SEC/LGU-registered, not CDA, the COC pain doesn't apply. Question 2 of the association-officer guide (G3, archived) checks this.
 
-## Open questions (now in G3/G5)
+## Open questions
+*Parked with the co-op bookkeeping direction on 2026-11-16. The interview guides that cover them (G3, G5) are archived at `archive/2026-11-first-plan/docs/05-fieldwork/interview-guides.md`.*
 1. Can a Region V micro co-op still use an Audit Committee audit, or must it hire an external auditor? What does an external audit cost in Masbate?
 2. How many Masbate/Baleno co-ops are non-compliant, dormant or cancelled? Is any of them in the Amnesty Program?
 3. Are the Baleno groups CDA-registered? What do DA-SAAD, PCA-CFIDP or ATI require of them?

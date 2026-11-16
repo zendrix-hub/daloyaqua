@@ -2,37 +2,28 @@
 
 > *Daloy* — flow. DaloyAqua helps Baleno farm families see and steer the flows of their farm: **water, data, cash and knowledge.**
 
-An agritech startup in the making, for Baleno, Masbate, Philippines. It is built one small step at a time by three siblings: IT, agriculture and accounting.
+A study of one family farm in Baleno, Masbate, Philippines, that aims to become an agritech startup. It is run by one person, one hour a week.
 
-## Current phase: **Research** (SDLC Phase 0) · Stage: **S0**, before deployment
-> Continuing this work (human or AI)? **Read [HANDOFF.md](HANDOFF.md) first.**
+## Current stage: solo farm study
+> Continuing this work (human or AI)? **Read [HANDOFF.md](HANDOFF.md) first.** It is the whole plan on one page.
 
-The family farm logbook is our first **research instrument**: it collects real Baleno price and cost data to test what desk research found.
+**The question:** farm family income in Baleno is fragile to price and climate. What is the single biggest problem on our own land, in the words of the people who work it?
 
-| Spec | Name | Status |
-|---|---|---|
-| [001](specs/001-farm-logbook/spec.md) | Family farm logbook (spreadsheet v0.1, Mother's turnover edition) | built, awaiting deployment |
-| [002](specs/002-mobile-entry/spec.md) | Mobile entry (offline-first, assisted) | draft (waits for S0 gate) |
-| [003](specs/003-copra-sale-quality/spec.md) | Copra moisture & deduction fields | built into v0.1, awaiting review |
-
-## Strategy in one line
-Association first, not app first: bookkeeping and pooled selling for Baleno farmer groups, built after it's proven on our own farm. See [lean canvas](docs/02-strategy/lean-canvas.md).
+The first plan (SDLC, specs, sibling roles) was archived on 2026-11-16 because nothing in it had started. See `archive/2026-11-first-plan/`.
 
 ## Repo map
 | Path | What |
 |---|---|
+| `HANDOFF.md` | The plan: question, next action, finish line, parked ideas, log |
+| `docs/05-fieldwork/notes/farm-answers.md` | Questions for mother, father and the bantay, with space for answers and the farm fact sheet |
+| `docs/01-research/` | [Summary](docs/01-research/summary.md) of rounds 1–7. Rounds 5–6 cover copra weighing, farm labour, Baleno associations, the coconut registry and local infrastructure; [round 7](docs/01-research/round7.md) covers climate risk, earning more from coconuts and Japanese systems |
+| `docs/04-innovation.md` | Idea log |
 | `docs/00-brand.md` | Name, meaning, principles |
-| `docs/01-research/` | Cited research rounds 1–6 (problem discovery; value chain, users, Japan; who pays and funding; co-op bookkeeping landscape; copra weighing/labor/CDA accounts; SAAD budgets, ACPC conduits, NCFRS & Baleno infrastructure) |
-| `docs/02-strategy/` | Lean canvas, team roles, funding roadmap |
-| `docs/03-sdlc.md` | How we build: SDLC + spec-driven development, stage gates |
-| `docs/05-fieldwork/` | Interview guides (G1–G6) and interview notes |
-| `docs/04-innovation.md` | Innovation log: idea → experiment → spec or parked |
-| `HANDOFF.md` | Progress, decisions, next actions, rules for AI agents |
-| `specs/` | One folder per feature: `spec.md` → `plan.md` → `tasks.md` |
-| `tools/` | Working tools (v0 logbook workbook) |
+| `docs/02-strategy/` | Lean canvas, funding roadmap, team roles (written for the first plan) |
+| `tools/` | The logbook workbook (v0.1, example rows only) |
+| `archive/2026-11-first-plan/` | Old HANDOFF, SDLC, specs 001–003, interview guides G1–G6 |
 
 ## How we work
-1. Every feature starts from a verified problem (`docs/01-research`).
-2. No build without a spec (`docs/03-sdlc.md`).
-3. Ideas go to the innovation log first. Experiments come before specs.
-4. Small, constant flow over big, rare effort.
+1. Protect first, earn more second.
+2. Conversations before tools. No build until a problem is validated on more than one farm.
+3. Small, constant flow over big, rare effort.

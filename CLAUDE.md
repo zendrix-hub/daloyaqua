@@ -1,5 +1,5 @@
 # CLAUDE.md
 
-Read **[HANDOFF.md](HANDOFF.md)** first. It holds the current phase, decisions, next actions and the rules for AI agents on this project. Then read `README.md` and `docs/03-sdlc.md`.
+Read **[HANDOFF.md](HANDOFF.md)** first. It is the whole plan on one page: the question, the next action, the parked ideas and the rules for AI agents.
 
-Before ending a session, update HANDOFF.md (Snapshot, checklist, Next actions, Session log).
+Before ending a session, update HANDOFF.md (Next action, status column, Log).

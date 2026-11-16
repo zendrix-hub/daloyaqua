@@ -1,5 +1,7 @@
 # Funding & Payer Roadmap (v1, 2026-11-05)
 
+> **Written for the first plan (archived 2026-11-16).** Not in force. The current plan is [`HANDOFF.md`](../../HANDOFF.md); this file will be rewritten after the farm fact sheet.
+
 Based on `docs/01-research/round3.md`. ✅ = verified · 🧪 = our inference, check by direct contact.
 
 ## Core insight

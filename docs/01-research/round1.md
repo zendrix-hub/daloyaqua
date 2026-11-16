@@ -24,4 +24,4 @@ Method: deep-research workflow covering 5 angles and 22 sources. Each claim got 
 Fishpond economics (the SEAFDEC model figures), rural connectivity statistics, PCIC paperwork burden, trader-vs-mill price gap, Masbate priority commodities. Round 2 follows up on these.
 
 ## Decision
-First atomic problem: *"We don't know what we earn per parcel and per copra sale."* We built it as → `specs/001-farm-logbook`.
+First atomic problem: *"We don't know what we earn per parcel and per copra sale."* The first plan built it as a spreadsheet logbook: the workbook is in `tools/`, and its spec is archived at `archive/2026-11-first-plan/specs/001-farm-logbook`.

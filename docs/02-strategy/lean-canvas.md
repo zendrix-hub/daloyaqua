@@ -1,5 +1,7 @@
 # Lean Canvas — DaloyAqua (v2, 2026-11-05)
 
+> **Written for the first plan (archived 2026-11-16).** Not in force. The current plan is [`HANDOFF.md`](../../HANDOFF.md); this file will be rewritten after the farm fact sheet.
+
 Status legend: ✅ evidence (see `docs/01-research`) · 🧪 hypothesis to test
 
 | Block | Content |
