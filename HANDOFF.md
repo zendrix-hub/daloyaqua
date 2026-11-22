@@ -19,13 +19,13 @@ Why now: a very strong El Niño is under way (PAGASA, 4 Nov 2026). Coconut yield
 - **The bantay (caretaker; called the *taohan* in rounds 5–6):** the trees, the harvest, the drying and the sale.
 
 ## Next action
-**Before Christmas (next Sunday session, 29 November 2026):** enter the baseline parcels and the latest copra sale into the private copy of the logbook (kept outside git in `private/`), and review the open questions for the Christmas break ground visit.
+**Christmas break:** walk the parcels with the bantay and father; ask the moisture, husk and whole-nut questions (`C1`–`C10` in `docs/05-fieldwork/notes/farm-answers.md`); check registry status at Baleno MAO. (If a December copra sale happens before then, log the receipt in the private logbook.)
 
 ## Order of work
 | # | When | What | Status |
 |---|---|---|---|
 | 1 | Sun 22 Nov | Call mother: parcels, land papers and registry, the share arrangement, the last sale, records | ☑ |
-| 2 | Before Christmas | Backfill a private copy of the logbook (kept outside this repo) from the family's records | ☐ |
+| 2 | Before Christmas | Backfill a private copy of the logbook (kept outside this repo) from the family's records | ☑ |
 | 3 | Christmas break | Walk the parcels with the bantay and father (father's initial questions done 22 Nov); ask the moisture, husk and whole-nut questions (`C1`–`C10`); check registry status at Baleno MAO | ☐ |
 | 4 | End of break | Fill in the five-item farm fact sheet (below) | ☐ |
 | 5 | After graduation (Jan 2027) | See "After Christmas" | ☐ |
@@ -87,4 +87,4 @@ Filled in at the end of `farm-answers.md`.
 | 2026-11-16 | `summary.md` updated with round 7 and stripped of old-plan instructions; strategy files marked as first-plan. |
 | 2026-11-16 | Made safe for the public repo: personal files and filled-in answers live outside it. |
 | 2026-11-16 | Reshaped with Cowboy. Solo study of the family farm; problem restated as fragile income (price and climate); protect first, earn more second; first plan archived. Round 7 research added. |
-| 2026-11-22 | Completed Sunday calls with mother (part A) and father (part B); answers saved in the local git-ignored private copy. Next: backfill the baseline parcels and latest sale into the private logbook before Christmas. |
+| 2026-11-22 | Completed Sunday calls with mother (part A) and father (part B); saved answers and baseline rows in the local git-ignored private logbook; fixed the v0.1 `Summary`/`Sales` formula range corruption (`:01` / `:1`) in `tools/baleno-farm-logbook-v0.xlsx`. Next: Christmas break ground walk (`C1`–`C10`) and Baleno MAO registry check. |
