@@ -2,7 +2,7 @@
 
 > Read this page first. It is the whole plan. If you are an AI agent or a new collaborator, add a line to the log before you finish.
 
-**Last updated:** 2026-11-16 · **Stage:** a solo study of one family farm in Baleno, Masbate. It becomes a startup again when a validated problem is shared by more than one farm.
+**Last updated:** 2026-11-22 · **Stage:** a solo study of one family farm in Baleno, Masbate. It becomes a startup again when a validated problem is shared by more than one farm.
 
 ## The question
 **Farm family income in Baleno is fragile to price and climate. What is the single biggest problem on our own land, in the words of the people who work it?**
@@ -19,14 +19,14 @@ Why now: a very strong El Niño is under way (PAGASA, 4 Nov 2026). Coconut yield
 - **The bantay (caretaker; called the *taohan* in rounds 5–6):** the trees, the harvest, the drying and the sale.
 
 ## Next action
-**Sunday 22 November 2026: call mother.** Questions are in `docs/05-fieldwork/notes/farm-answers.md`, part A. Write the answers in the private copy.
+**Before Christmas (next Sunday session, 29 November 2026):** enter the baseline parcels and the latest copra sale into the private copy of the logbook (kept outside git in `private/`), and review the open questions for the Christmas break ground visit.
 
 ## Order of work
 | # | When | What | Status |
 |---|---|---|---|
-| 1 | Sun 22 Nov | Call mother: parcels, land papers and registry, the share arrangement, the last sale, records | ☐ |
+| 1 | Sun 22 Nov | Call mother: parcels, land papers and registry, the share arrangement, the last sale, records | ☑ |
 | 2 | Before Christmas | Backfill a private copy of the logbook (kept outside this repo) from the family's records | ☐ |
-| 3 | Christmas break | Talk to father and the bantay; walk the parcels; ask the moisture and whole-nut questions | ☐ |
+| 3 | Christmas break | Walk the parcels with the bantay and father (father's initial questions done 22 Nov); ask the moisture, husk and whole-nut questions (`C1`–`C10`); check registry status at Baleno MAO | ☐ |
 | 4 | End of break | Fill in the five-item farm fact sheet (below) | ☐ |
 | 5 | After graduation (Jan 2027) | See "After Christmas" | ☐ |
 
@@ -87,3 +87,4 @@ Filled in at the end of `farm-answers.md`.
 | 2026-11-16 | `summary.md` updated with round 7 and stripped of old-plan instructions; strategy files marked as first-plan. |
 | 2026-11-16 | Made safe for the public repo: personal files and filled-in answers live outside it. |
 | 2026-11-16 | Reshaped with Cowboy. Solo study of the family farm; problem restated as fragile income (price and climate); protect first, earn more second; first plan archived. Round 7 research added. |
+| 2026-11-22 | Completed Sunday calls with mother (part A) and father (part B); answers saved in the local git-ignored private copy. Next: backfill the baseline parcels and latest sale into the private logbook before Christmas. |

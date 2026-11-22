@@ -16,3 +16,6 @@ venv/
 # OS / Editor
 .DS_Store
 Thumbs.db
+
+# Local private notes, logbooks, and backups (never committed)
+private/
